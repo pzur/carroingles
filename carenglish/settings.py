@@ -67,7 +67,8 @@ CORS_ORIGIN_WHITELIST = [
     "https://example.com",
     "https://sub.example.com",
     "http://localhost:3000",  #este es el que usa react para consumirlo
-    "http://127.0.0.1:8000"
+    "http://127.0.0.1:8000",
+    "https://jhosepgc14.github.io/carrito-codiGo/#/"
 ]
 
 
