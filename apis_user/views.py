@@ -50,7 +50,7 @@ class LoginView(APIView):
     parser_classes = (parsers.JSONParser,)
 
     def post(self, request, format=None):
-        username = request.data["nickname"]
+        username = request.data["username"]
         password = request.data["password"]
         user = authenticate(username=username, password=password)
         if user:

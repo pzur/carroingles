@@ -33,7 +33,7 @@ class ProductsDetailSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Products #PADRE
-        fields = ['id', 'product', 'feature', 'description', 'categoria','list_price', 'product_photos']
+        fields = ['id', 'product', 'feature', 'description', 'category','list_price', 'product_photos']
 
 
 
