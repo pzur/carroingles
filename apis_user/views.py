@@ -19,7 +19,7 @@ class RegisterUsers(generics.CreateAPIView):  # Solo Registrar datos en el model
 
     def post(self, request, format=None):
         # Creando en Nuevo Usuario
-        username = request.data['nickname']
+        username = request.data['username']
         email = request.data['email']
         password = request.data['password']
         #first_name = request.data['first_name']

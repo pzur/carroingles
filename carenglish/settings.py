@@ -58,6 +58,12 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_WHITELIST = [
+    "https://carallenglish.herokuapp.com/apis_product/List_Products/"
+    "https://carallenglish.herokuapp.com/apis_product/Detail_Products/"
+    "https://carallenglish.herokuapp.com/apis_user/registeruser/"
+    "https://carallenglish.herokuapp.com/apis_user/authenticate/"
+    "https://carallenglish.herokuapp.com/apis_category/List_Category_Products"
+    "https://carallenglish.herokuapp.com/apis_category/List_All_Categorys/"
     "https://example.com",
     "https://sub.example.com",
     "http://localhost:3000",  #este es el que usa react para consumirlo
