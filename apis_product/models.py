@@ -44,6 +44,6 @@ class Product_Price(models.Model):
     estado = models.BooleanField(default=True)
 
     def __str__(self):
-        return self.productos.product + ' Price sale:' + str(self.pricesale) + ' Price special:' + str(
+        return self.products.product + ' Price sale:' + str(self.pricesale) + ' Price special:' + str(
             self.pricespecial)
 
