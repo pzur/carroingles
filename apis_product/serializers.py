@@ -26,7 +26,7 @@ class ProductsSerializer(serializers.HyperlinkedModelSerializer):
 
 
 
-class ProductsDetailSerializer(serializers.HyperlinkedModelSerializer):
+class ProductsDetailSerializer(serializers.ModelSerializer):
     list_price = PricesProductsSerializer(many=True, read_only=True) #HIJO1
     product_photos = PhotosProductsSerializer(many=True, read_only=True)  #HIJO2
 
